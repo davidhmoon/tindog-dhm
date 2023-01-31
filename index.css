@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card .dog-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#card {
+    position: relative;
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+
+.reaction {
+    position: absolute;
+    top: 3.5em;
+    left: 1em;
+    width: 14.62em;
+    transform: rotate(-30deg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.1875em;
+}
+
+.avatar { height: 2.125em }
+.logo   {height: 2.625em }
+
+#reject-button:hover,
+#reject-button:focus {
+    outline:0;
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#accept-button:hover,
+#accept-button:focus {
+    outline:0;
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.actions {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    padding: 1.55em 10.69em;
+}
+
+
